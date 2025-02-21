@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MedBed Server</title>
+</head>
+<body>
+    <h1>MedBed API Server</h1>
+    <p>Status: <span id="status">Loading...</span></p>
+    <script>
+        fetch('/')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('status').textContent = 'Online';
+                console.log('Server Response:', data);
+            })
+            .catch(err => {
+                document.getElementById('status').textContent = 'Offline';
+                console.error('Connection Error:', err);
+            });
+    </script>
+</body>
+</html>
