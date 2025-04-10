@@ -2,13 +2,11 @@
 
 MedBed is a full‑stack application designed to manage medical appointments and hospital resources. It provides separate dashboards for patients and hospitals, enabling features like nearby hospital search with dynamic radius filtering, appointment booking, offline chatbot support, and resource management. 
 
----
 
 ## Overview
 
 MedBed streamlines the process of finding nearby hospitals, booking available beds, and tracking appointment history. Hospitals can update their resource information and location data through their dashboard, while patients can search for hospitals within a defined radius, view their appointments, and get instant help from an offline chatbot.
 
----
 
 ## Features
 
@@ -40,7 +38,6 @@ MedBed streamlines the process of finding nearby hospitals, booking available be
 ### 24/7 Support
 - **Direct Call:** A button initiates a phone call to the support number (9174245164).
 
----
 
 ## Technologies Used
 
@@ -63,7 +60,6 @@ MedBed streamlines the process of finding nearby hospitals, booking available be
   - MongoDB's geospatial queries (with GeoJSON format)  
   - Haversine formula for distance calculation
 
----
 
 ## Modules & Their Functions
 
@@ -109,7 +105,7 @@ MedBed streamlines the process of finding nearby hospitals, booking available be
 - **Files:** `expoApp/app/login.js`, `expoApp/app/register.js`, `expoApp/app/dashboard.js`, `expoApp/app/index.js`, `expoApp/app/App.js`, and `expoApp/src/api/client.js`
 - **Function:** Handles navigation between screens and sets up a global Axios client to interact with the backend API.
 
----
+```plaintext
 
 ├── server
 │   ├── models
